@@ -20,9 +20,9 @@ modules:
       - install -Dm 644 page.codeberg.gwync.glerm.desktop /app/share/applications/page.codeberg.gwync.glerm.desktop
     sources:
       - type: file
-        url: https://codeberg.org/gwync/glerm/raw/commit/fd77a33b3af8efa10e83dd2ae4b7e53a0c5f16d2/page.codeberg.gwync.glerm.metainfo.xml
+        url: https://codeberg.org/gwync/glerm/raw/commit/098724e07f566833b48a2bc816866522cda7ba31/page.codeberg.gwync.glerm.metainfo.xml
         dest-filename: page.codeberg.gwync.glerm.metainfo.xml
-        sha256: f80be40354d9da8eb363aef023868ec67f86827d3544fa00ac2669a0b14b6ffb
+        sha256: 86fa44fef542d423e2b7b98f4c94c63fdfe6bf4e451efac66ba37de1f4c39d3f
       - type: file
         url: https://codeberg.org/gwync/glerm/raw/commit/094208e70ca26d9a654e7a43037c070984458648/page.codeberg.gwync.glerm.desktop
         dest-filename: page.codeberg.gwync.glerm.desktop
