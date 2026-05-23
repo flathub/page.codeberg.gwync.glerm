@@ -12,8 +12,15 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/49/cc/08bba60f00541f62aaa252ce0cfbd60aebd04616c0b9574f755b583e45ae/pygame-2.6.1.tar.gz",
-            "sha256": "56fb02ead529cee00d415c3e007f75e0780c655909aaa8e8bf616ee09c9feb1f"
+            "only-arches": ["x86_64"],
+            "url": "https://files.pythonhosted.org/packages/85/b5/aa23aa2e70bcba42c989c02e7228273c30f3b44b9b264abb93eaeff43ad7/pygame-2.6.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "ef07c0103d79492c21fced9ad68c11c32efa6801ca1920ebfd0f15fb46c78b1c"
+        },
+        {
+            "type": "file",
+            "only-arches": ["aarch64"],
+            "url": "https://files.pythonhosted.org/packages/9f/8f/617a1196e31ae3b46be6949fbaa95b8c93ce15e0544266198c2266cc1b4d/pygame-2.6.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "27eb17e3dc9640e4b4683074f1890e2e879827447770470c2aba9f125f74510b"
         }
     ]
 }
