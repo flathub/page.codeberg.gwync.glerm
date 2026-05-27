@@ -1,6 +1,6 @@
 id: page.codeberg.gwync.glerm
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: glerm
 finish-args:
@@ -15,19 +15,17 @@ modules:
   - name: glerm
     buildsystem: simple
     build-commands:
-      - install -Dm 644 page.codeberg.gwync.glerm.metainfo.xml /app/share/metainfo/page.codeberg.gwync.glerm.metainfo.xml
-      - install -Dm0644 icon.png /app/share/icons/hicolor/256x256/apps/page.codeberg.gwync.glerm.png
-      - install -Dm 644 page.codeberg.gwync.glerm.desktop /app/share/applications/page.codeberg.gwync.glerm.desktop
+      - install -Dm644 page.codeberg.gwync.glerm.metainfo.xml -t /app/share/metainfo/
+      - install -Dm644 page.codeberg.gwync.glerm.png -t /app/share/icons/hicolor/256x256/apps/
+      - install -Dm644 page.codeberg.gwync.glerm.desktop -t /app/share/applications/
     sources:
       - type: file
         url: https://codeberg.org/gwync/glerm/raw/commit/098724e07f566833b48a2bc816866522cda7ba31/page.codeberg.gwync.glerm.metainfo.xml
-        dest-filename: page.codeberg.gwync.glerm.metainfo.xml
         sha256: 86fa44fef542d423e2b7b98f4c94c63fdfe6bf4e451efac66ba37de1f4c39d3f
       - type: file
         url: https://codeberg.org/gwync/glerm/raw/commit/094208e70ca26d9a654e7a43037c070984458648/page.codeberg.gwync.glerm.desktop
-        dest-filename: page.codeberg.gwync.glerm.desktop
         sha256: 3a80a9dd7e1676113fbf2bfc22cbe8a5ee23194808afed06d65016f3e83785d0
       - type: file
         url: https://codeberg.org/gwync/glerm/raw/commit/094208e70ca26d9a654e7a43037c070984458648/icon.png
-        dest-filename: icon.png
+        dest-filename: page.codeberg.gwync.glerm.png
         sha256: 2751877fe8786b82cadef3f82711ad7c1297e92f12a83b277410a1908b7fedfd
